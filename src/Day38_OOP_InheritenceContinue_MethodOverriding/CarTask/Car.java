@@ -18,16 +18,16 @@ public class Car {
     }
 
     public void start() {
-        System.out.println(brand + " " + model + " is staring");
+        System.out.println(brand + " " + model + " is starting");
 
     }
 
-    public void drive() {
+     void drive() {
         System.out.println(brand + " " + model + " is driving");
 
     }
 
-    /*public void fly(){
+    /* public void fly(){
 //  fly(): is not common for all the cars, and parent class should contain the common feature of child classes;
     }
 
@@ -55,10 +55,10 @@ carTask:
 			instance methods:
 				start(), drive(),toString()
 
-		Create the following sub classes of Car:
+		Create the following subclasses of Car:
 			1. Toyota:
 					extra methods:
-							reliabile()
+							reliable()
 
 			2. BMW:
 					extra methods:
